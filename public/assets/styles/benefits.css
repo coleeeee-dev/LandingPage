@@ -1,0 +1,66 @@
+.benefits-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Title styles */
+.benefits-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+/* Grid layout */
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Individual benefit item styles */
+.benefit-item {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Icon styles */
+.benefit-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.benefit-icon.monitoring {
+    color: #4CAF50;
+}
+
+.benefit-icon.alerts {
+    color: #cddc39;
+}
+
+.benefit-icon.recommendations {
+    color: #03a9f4;
+}
+
+.benefit-icon.resources {
+    color: #2f4052;
+}
+
+/* Text styles */
+.benefit-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.benefit-description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666;
+}
